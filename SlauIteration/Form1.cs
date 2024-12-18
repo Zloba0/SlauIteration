@@ -38,6 +38,7 @@ namespace SlauIteration
             catch
             {
                 MessageBox.Show("Input dimension", "Worning");
+                return;
             }
             double eps = 0;
             try
@@ -47,6 +48,7 @@ namespace SlauIteration
             catch
             {
                 MessageBox.Show("Input rejection", "Worning");
+                return;
             }
             double[,] matr = new double[n, n+1];
             try
@@ -283,6 +285,7 @@ namespace SlauIteration
             catch
             {
                 MessageBox.Show("Input dimension", "Worning");
+                return;
             }
             double eps = 0;
             try
@@ -292,6 +295,7 @@ namespace SlauIteration
             catch
             {
                 MessageBox.Show("Input rejection", "Worning");
+                return;
             }
             double[,] matr = new double[n, n+1];
             try
